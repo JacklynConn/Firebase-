@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "830649063067",
+    "project_id": "fir-5-a93e3",
+    "storage_bucket": "fir-5-a93e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830649063067:android:12a0286e95cefb597b183e",
+        "android_client_info": {
+          "package_name": "com.makmach.firebase5"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXh31-jmtkotIZjSwKTiFe5NFM_MnDp34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
