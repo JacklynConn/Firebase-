@@ -1,4 +1,7 @@
 # firebase5
+5. Use StreamBuilder to Read Data from Firestore
+![image](https://github.com/JacklynConn/Firebase-/assets/148744079/7ed3a48e-bb18-4572-9159-dde856061dfb)
+
 
 A new Flutter project.
 
