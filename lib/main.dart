@@ -1,3 +1,4 @@
+import 'package:firebase5/pages/main_page.dart';
 import 'package:firebase5/pages/splash_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -17,14 +18,20 @@ class MyApp extends StatelessWidget {
         if (snapshot.hasError) {
           print("Error: ${snapshot.error}");
           return _buildMaterial(
-            const Scaffold(body: Center(child: Text("Error Firebase"))),
+            const Scaffold(
+              body: Center(
+                child: Text("Error Firebase"),
+              ),
+            ),
           );
         }
         if (snapshot.connectionState == ConnectionState.done) {
-          return _buildMaterial(const SplashScreenPage());
+          return _buildMaterial(const MainPage());
         } else {
           return _buildMaterial(const Center(
-            child: Scaffold(body: CircularProgressIndicator()),
+            child: Scaffold(
+              body: CircularProgressIndicator(),
+            ),
           ));
         }
       },
