@@ -1,6 +1,9 @@
 # firebase5
 5. Use StreamBuilder to Read Data from Firestore
 ![image](https://github.com/JacklynConn/Firebase-/assets/148744079/7ed3a48e-bb18-4572-9159-dde856061dfb)
+6. Insert a Record into Firestore
+![image](https://github.com/JacklynConn/Firebase-/assets/148744079/0785c035-b0c6-47d1-aa5d-72c1bb76821b)
+
 
 
 A new Flutter project.
